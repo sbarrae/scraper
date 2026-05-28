@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parques Nacionales de Chile — Camping</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --verde:     #1D9E75;
+      --verde-dark:#085041;
+      --verde-pale:#E1F5EE;
+      --arena:     #FAC775;
+      --arena-dark:#854F0B;
+      --texto:     #1a1a1a;
+      --muted:     #6b7280;
+      --borde:     #e5e7eb;
+      --bg:        #f8f7f4;
+      --white:     #ffffff;
+      --radius:    12px;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--texto);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Header ── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 14px 20px;
+      background: var(--white);
+      border-bottom: 1px solid var(--borde);
+      z-index: 1000;
+      flex-shrink: 0;
+    }
+    .logo {
+      font-family: 'DM Serif Display', serif;
+      font-size: 20px;
+      color: var(--verde-dark);
+      letter-spacing: -0.3px;
+    }
+    .logo span { color: var(--verde); }
+    .badge-beta {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      background: var(--verde-pale);
+      color: var(--verde-dark);
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .header-filters {
+      display: flex;
+      gap: 8px;
+      margin-left: auto;
+      align-items: center;
+    }
+    .filter-btn {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1.5px solid var(--borde);
+      background: var(--white);
+      color: var(--muted);
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .filter-btn:hover { border-color: var(--verde); color: var(--verde-dark); }
+    .filter-btn.active {
+      background: var(--verde);
+      border-color: var(--verde);
+      color: var(--white);
+    }
+    .stat-pill {
+      font-size: 12px;
+      color: var(--muted);
+      padding: 6px 12px;
+      background: var(--bg);
+      border-radius: 20px;
+      border: 1px solid var(--borde);
+    }
+    .stat-pill strong { color: var(--verde-dark); }
+
+    /* ── Mapa ── */
+    #map {
+      flex: 1;
+      width: 100%;
+      z-index: 1;
+    }
+
+    /* ── Marcadores custom ── */
+    .marker-pin {
+      width: 32px;
+      height: 32px;
+      border-radius: 50% 50% 50% 0;
+      transform: rotate(-45deg);
+      border: 2px solid var(--white);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .marker-pin.camping  { background: var(--verde); }
+    .marker-pin.sin-camping { background: #9ca3af; }
+    .marker-inner {
+      transform: rotate(45deg);
+      font-size: 13px;
+      color: white;
+    }
+
+    /* ── Popup ── */
+    .leaflet-popup-content-wrapper {
+      border-radius: var(--radius) !important;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15) !important;
+      border: 1px solid var(--borde) !important;
+      padding: 0 !important;
+      overflow: hidden;
+    }
+    .leaflet-popup-content {
+      margin: 0 !important;
+      width: 280px !important;
+    }
+    .leaflet-popup-tip-container { display: none; }
+    .leaflet-popup-close-button {
+      color: var(--muted) !important;
+      font-size: 18px !important;
+      top: 10px !important;
+      right: 10px !important;
+      z-index: 10;
+    }
+
+    .popup-header {
+      background: var(--verde);
+      padding: 16px 18px 14px;
+      position: relative;
+    }
+    .popup-header.sin-camping { background: #6b7280; }
+    .popup-nombre {
+      font-family: 'DM Serif Display', serif;
+      font-size: 16px;
+      color: white;
+      line-height: 1.2;
+      margin-bottom: 4px;
+      padding-right: 20px;
+    }
+    .popup-region {
+      font-size: 12px;
+      color: rgba(255,255,255,0.8);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .popup-body { padding: 14px 18px; }
+
+    .popup-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .badge-camping { background: var(--verde-pale); color: var(--verde-dark); }
+    .badge-sin    { background: #f3f4f6; color: var(--muted); }
+
+    .popup-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+    .popup-icon { font-size: 15px; color: var(--muted); flex-shrink: 0; margin-top: 1px; }
+    .popup-label { color: var(--texto); line-height: 1.4; }
+    .popup-label.muted { color: var(--muted); font-style: italic; }
+
+    .servicios-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      margin-top: 2px;
+    }
+    .servicio-tag {
+      font-size: 11px;
+      padding: 2px 8px;
+      background: var(--bg);
+      border: 1px solid var(--borde);
+      border-radius: 20px;
+      color: var(--muted);
+    }
+
+    .popup-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 14px;
+      padding: 9px;
+      background: var(--verde);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      transition: background 0.15s;
+    }
+    .popup-link:hover { background: var(--verde-dark); }
+    .popup-link.disabled {
+      background: var(--borde);
+      color: var(--muted);
+      pointer-events: none;
+    }
+
+    /* ── Leyenda ── */
+    .leyenda {
+      position: absolute;
+      bottom: 28px;
+      left: 14px;
+      z-index: 800;
+      background: var(--white);
+      border: 1px solid var(--borde);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 12px;
+    }
+    .leyenda-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 5px;
+    }
+    .leyenda-item:last-child { margin-bottom: 0; }
+    .dot { width: 12px; height: 12px; border-radius: 50%; }
+    .dot.verde { background: var(--verde); }
+    .dot.gray  { background: #9ca3af; }
+
+    /* ── Count badge mapa ── */
+    .mapa-count {
+      position: absolute;
+      top: 72px;
+      right: 14px;
+      z-index: 800;
+      background: var(--white);
+      border: 1px solid var(--borde);
+      border-radius: 10px;
+      padding: 10px 16px;
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+    .mapa-count strong { display: block; font-size: 22px; font-weight: 600; color: var(--verde-dark); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">camping<span>chile</span></div>
+  <span class="badge-beta">beta</span>
+  <div class="header-filters">
+    <button class="filter-btn active" onclick="filtrar('todos', this)">Todos</button>
+    <button class="filter-btn" onclick="filtrar('camping', this)">⛺ Con camping</button>
+    <button class="filter-btn" onclick="filtrar('pase', this)">🎟 Con pase digital</button>
+    <span class="stat-pill" id="stat-visible"><strong>—</strong> parques visibles</span>
+  </div>
+</header>
+
+<div id="map"></div>
+
+<div class="leyenda">
+  <div class="leyenda-item"><div class="dot verde"></div> Tiene camping</div>
+  <div class="leyenda-item"><div class="dot gray"></div> Sin camping / sin datos</div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const SERVICIOS_LABELS = {
+  baños: '🚻 Baños', duchas: '🚿 Duchas', agua_potable: '💧 Agua potable',
+  estacionamiento: '🅿️ Estacionamiento', senderos: '🥾 Senderos',
+  refugio: '🏠 Refugio', quincho: '🔥 Quincho', picnic: '🌳 Picnic',
+  fogon: '🔥 Fogón',
+};
+
+/* ──────────────────────────────────────────────
+   DATOS DE EJEMPLO — reemplazar con tu GeoJSON
+   Cuando tengas parks_enriched.geojson:
+     fetch('output/parks_enriched.geojson')
+       .then(r => r.json())
+       .then(data => init(data))
+   ────────────────────────────────────────────── */
+const DEMO_DATA = {
+  type: 'FeatureCollection',
+  features: [
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.9355,-50.9423]},
+      properties:{nombre:'Torres del Paine',region:'Región de Magallanes',tiene_camping:true,servicios:'baños|duchas|senderos|refugio|agua_potable',horario:'Lun a Dom 08:30–18:00',slug_pases:'torres-del-paine',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.0161,-39.9791]},
+      properties:{nombre:'Villarrica',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|senderos|estacionamiento|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'villarrica-norte',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.6273,-38.6559]},
+      properties:{nombre:'Conguillio',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|duchas|senderos|quincho|agua_potable|estacionamiento',horario:'Lun a Dom 08:00–20:00',slug_pases:'conguillio',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.0019,-33.0075]},
+      properties:{nombre:'La Campana',region:'Región de Valparaíso',tiene_camping:true,servicios:'baños|senderos|agua_potable|estacionamiento',horario:'Lun a Dom 08:30–18:00',slug_pases:'la-campana-sector-granizo',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.9198,-39.5551]},
+      properties:{nombre:'Huerquehue',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'huerquehue',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-73.8067,-41.7814]},
+      properties:{nombre:'Alerce Andino',region:'Región de Los Lagos',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'alerce-andino',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.4817,-29.9765]},
+      properties:{nombre:'Bosque Fray Jorge',region:'Región de Coquimbo',tiene_camping:false,servicios:'senderos|estacionamiento',horario:'Sáb a Dom 09:00–17:00',slug_pases:'bosque-fray-jorge',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-70.6693,-26.0822]},
+      properties:{nombre:'Pan de Azúcar',region:'Región de Atacama',tiene_camping:true,servicios:'baños|agua_potable|senderos',horario:'Lun a Dom 08:30–18:00',slug_pases:'pan-de-azucar',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.3746,-45.4754]},
+      properties:{nombre:'Laguna San Rafael',region:'Región de Aysén',tiene_camping:false,servicios:'senderos',horario:'Consultar',slug_pases:null,tiene_pase_digital:false}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-73.5843,-42.6148]},
+      properties:{nombre:'Chiloé',region:'Región de Los Lagos',tiene_camping:true,servicios:'baños|senderos|agua_potable|estacionamiento',horario:'Lun a Dom 08:00–18:00',slug_pases:'chiloe',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.3855,-37.3497]},
+      properties:{nombre:'Laguna del Laja',region:'Región del Biobío',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:30–18:00',slug_pases:'laguna-del-laja',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-69.9031,-18.3613]},
+      properties:{nombre:'Lauca',region:'Región de Arica y Parinacota',tiene_camping:true,servicios:'baños|agua_potable|senderos',horario:'Todos los días',slug_pases:null,tiene_pase_digital:false}},
+  ]
+};
+
+/* ── Mapa ── */
+const map = L.map('map', {
+  center: [-38, -71],
+  zoom: 5,
+  zoomControl: false,
+});
+
+L.control.zoom({ position: 'topright' }).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '© OpenStreetMap, © CARTO',
+  maxZoom: 19,
+}).addTo(map);
+
+function makeIcon(tieneCamping) {
+  const color = tieneCamping ? '#1D9E75' : '#9ca3af';
+  const svg = `
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 30 40">
+      <path d="M15 0 C6.7 0 0 6.7 0 15 C0 26 15 40 15 40 C15 40 30 26 30 15 C30 6.7 23.3 0 15 0Z"
+            fill="${color}" stroke="white" stroke-width="2"/>
+      <text x="15" y="20" text-anchor="middle" font-size="13" fill="white"
+            font-family="sans-serif">${tieneCamping ? '⛺' : '🌿'}</text>
+    </svg>`;
+  return L.divIcon({
+    html: svg,
+    iconSize: [30, 40],
+    iconAnchor: [15, 40],
+    popupAnchor: [0, -42],
+    className: '',
+  });
+}
+
+function buildPopup(p) {
+  const serviciosList = p.servicios
+    ? p.servicios.split('|').map(s =>
+        `<span class="servicio-tag">${SERVICIOS_LABELS[s] || s}</span>`
+      ).join('')
+    : '<span class="servicio-tag" style="color:var(--muted)">Sin datos</span>';
+
+  const linkHtml = p.slug_pases
+    ? `<a class="popup-link" href="https://www.pasesparques.cl/es/parks/${p.slug_pases}" target="_blank">
+         🎟 Comprar pase en pasesparques.cl
+       </a>`
+    : `<a class="popup-link disabled">Sin pase digital disponible</a>`;
+
+  const headerClass = p.tiene_camping ? '' : 'sin-camping';
+  const badgeHtml = p.tiene_camping
+    ? `<span class="popup-badge badge-camping">⛺ Camping disponible</span>`
+    : `<span class="popup-badge badge-sin">🌿 Sin camping</span>`;
+
+  return `
+    <div class="popup-header ${headerClass}">
+      <div class="popup-nombre">${p.nombre}</div>
+      <div class="popup-region">📍 ${p.region || 'Región no disponible'}</div>
+    </div>
+    <div class="popup-body">
+      ${badgeHtml}
+      <div class="popup-row">
+        <span class="popup-icon">🕐</span>
+        <span class="popup-label ${p.horario ? '' : 'muted'}">${p.horario || 'Horario no disponible'}</span>
+      </div>
+      <div class="popup-row">
+        <span class="popup-icon">🛠</span>
+        <div>
+          <div class="servicios-grid">${serviciosList}</div>
+        </div>
+      </div>
+      ${linkHtml}
+    </div>`;
+}
+
+let allMarkers = [];
+let activeFilter = 'todos';
+
+function addMarkers(geojson) {
+  allMarkers.forEach(m => map.removeLayer(m));
+  allMarkers = [];
+
+  const features = geojson.features.filter(f => {
+    if (activeFilter === 'camping') return f.properties.tiene_camping;
+    if (activeFilter === 'pase')    return f.properties.tiene_pase_digital;
+    return true;
+  });
+
+  features.forEach(f => {
+    const [lon, lat] = f.geometry.coordinates;
+    const p = f.properties;
+    const marker = L.marker([lat, lon], { icon: makeIcon(p.tiene_camping) });
+    marker.bindPopup(buildPopup(p), { maxWidth: 300 });
+    marker.addTo(map);
+    allMarkers.push(marker);
+  });
+
+  document.getElementById('stat-visible').innerHTML =
+    `<strong>${features.length}</strong> parques visibles`;
+}
+
+function filtrar(tipo, btn) {
+  activeFilter = tipo;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  addMarkers(DEMO_DATA);
+}
+
+/* ── Para usar tu GeoJSON real, reemplaza DEMO_DATA con:
+   fetch('output/parks_enriched.geojson')
+     .then(r => r.json())
+     .then(data => addMarkers(data))
+   ── */
+addMarkers(DEMO_DATA);
+</script>
+</body>
+</html>

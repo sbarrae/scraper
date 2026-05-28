@@ -1,0 +1,863 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.5143638,-41.5730373 ]
+    },
+    "properties": {
+    "nombre":"Alerce Andino",
+    "tipo":"Parque Nacional",
+    "region":"Región de los Lagos Abierto",
+    "superficie_ha":39255,
+    "tiene_camping":"False",
+    "servicios":"senderos|picnic",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-andino/",
+    "slug_conaf":"parque-nacional-alerce-andino",
+    "horario":"abierto de Lunes a Domingo de 09:00 a 17:00",
+    "slug_pases":"alerce-andino",
+    "url_pases":"https://www.pasesparques.cl/es/parks/alerce-andino",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.3692312,-40.0379055 ]
+    },
+    "properties": {
+    "nombre":"Alerce Costero",
+    "tipo":"Parque Nacional",
+    "region":"Los Ríos",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"baños|estacionamiento|senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-costero/",
+    "slug_conaf":"parque-nacional-alerce-costero",
+    "horario":"abierto de Martes a Domingo de 09:00 a 16:30",
+    "slug_pases":"alerce-costero",
+    "url_pases":"https://www.pasesparques.cl/es/parks/alerce-costero",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "nombre":"Alerce Milenario",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-milenario/",
+    "slug_conaf":"parque-nacional-alerce-milenario",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "nombre":"Alto Bio Bio",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-alto-bio-bio/",
+    "slug_conaf":"parque-nacional-alto-bio-bio",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -80.7907713,-33.7691971 ]
+    },
+    "properties": {
+    "nombre":"Archipiélago Juan Fernández",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"senderos|picnic",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-archipielago-juan-fernandez/",
+    "slug_conaf":"parque-nacional-archipielago-juan-fernandez",
+    "horario":"abierto de Lunes a Domingo de 09:00 a 17:00",
+    "slug_pases":"archipielago-juan-fernandez",
+    "url_pases":"https://www.pasesparques.cl/es/parks/archipielago-juan-fernandez",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.501612,-49.7505552 ]
+    },
+    "properties": {
+    "nombre":"Bernardo O'Higgins",
+    "tipo":"Parque Nacional",
+    "region":"Magallanes",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Horarios de Atención Temporada Vigencia Horario Último Ingreso Estival 01 sept. al 30 abr. 08:00 a 18:00 hrs 17:30 hrs Invernal 01 may. al 31 ago. 09:30 a 17:30 hrs 17:00 hrs * Horarios sujetos a condiciones climáticas y disposiciones de la administración del parque. Ubicado en la Región de Magallanes y accesible principalmente por mar desde Puerto Natales, este destino ofrece una experiencia a través de la clásica excursión a los glaciares Balmaceda y Serrano, que se realiza en navegación de día completo por el Fiordo de Última Esperanza, con avistamiento de colonias de lobos marinos, cormora",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-bernardo-ohiggins/",
+    "slug_conaf":"parque-nacional-bernardo-ohiggins",
+    "horario":"abierto de Lunes a Domingo de 08:00 a 18:00",
+    "slug_pases":"bernardo-o-higgins",
+    "url_pases":"https://www.pasesparques.cl/es/parks/bernardo-o-higgins",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.6720165,-30.6511829 ]
+    },
+    "properties": {
+    "nombre":"Bosque Fray Jorge",
+    "tipo":"Parque Nacional",
+    "region":"Coquimbo",
+    "superficie_ha":9000,
+    "tiene_camping":"False",
+    "servicios":"baños|estacionamiento|senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-bosque-fray-jorge/",
+    "slug_conaf":"parque-nacional-bosque-fray-jorge",
+    "horario":"abierto de Jueves a Domingo de 09:00 a 17:00",
+    "slug_pases":"bosque-fray-jorge",
+    "url_pases":"https://www.pasesparques.cl/es/parks/bosque-fray-jorge",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -67.8283764,-55.855841 ]
+    },
+    "properties": {
+    "nombre":"Cabo de Hornos",
+    "tipo":"Parque Nacional",
+    "region":"Magallanes y Antártica Chilena",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-cabo-de-hornos/",
+    "slug_conaf":"parque-nacional-cabo-de-hornos",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.9544892,-46.0765221 ]
+    },
+    "properties": {
+    "nombre":"Cerro Castillo",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"baños|duchas|agua_potable|senderos|refugio",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-cerro-castillo/",
+    "slug_conaf":"parque-nacional-cerro-castillo",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.0966148,-42.4725607 ]
+    },
+    "properties": {
+    "nombre":"Chiloé",
+    "tipo":"Parque Nacional",
+    "region":"Región de los Lagos Abierto",
+    "superficie_ha":42567,
+    "tiene_camping":"False",
+    "servicios":"baños|senderos|refugio",
+    "descripcion":"Horario de Último Ingreso (Lunes a Jueves): 16:00 Horario de Último Ingreso (Viernes a Domingo): 15:30 El pase solo es valido para ingreso al sector El Chanquín Descarga tu mapa en el siguiente Link Este parque se distingue por sus bosques templados y paisajes costeros. Sus senderos atraviesan áreas de matorrales, bosques de alerces y playas vírgenes, ofreciendo una experiencia ideal para el ecoturismo. Aquí, es posible observar fauna como pudúes y carpintero negro, además de disfrutar de vistas panorámicas y una biodiversidad única que hace de Chiloé un destino especial para los amantes de la",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-chiloe/",
+    "slug_conaf":"parque-nacional-chiloe",
+    "horario":"abierto de Lunes a Domingo de 09:30 a 17:00",
+    "slug_pases":"chiloe",
+    "url_pases":"https://www.pasesparques.cl/es/parks/chiloe",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.6847086,-38.655086 ]
+    },
+    "properties": {
+    "nombre":"Conguillio",
+    "tipo":"Parque Nacional",
+    "region":"La Araucanía",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"baños|senderos|picnic",
+    "descripcion":"Horario de Último Ingreso: 14:00 Hrs Revisa el estado de la unidad aquí Recuerda llevar tu pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Cada rincón de Conguillío nos invita a maravillarnos con su biodiversidad, sus paisajes únicos y sus cristalinos lagos de origen volcánico. Este parque es un verdadero tesoro natural, hogar del imponente Volcán Llaima y de los impresionantes bosques de araucarias, algunas de las cuales tienen más de 1,000 años.",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-conguillio/",
+    "slug_conaf":"parque-nacional-conguillio",
+    "horario":"abierto de Martes a Domingo de 08:30 a 17:30",
+    "slug_pases":"conguillio",
+    "url_pases":"https://www.pasesparques.cl/es/parks/conguillio",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.7121795,-43.5083359 ]
+    },
+    "properties": {
+    "nombre":"Corcovado",
+    "tipo":"Parque Nacional",
+    "region":"Aysén",
+    "superficie_ha":293986,
+    "tiene_camping":"False",
+    "servicios":"senderos|refugio",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+    "slug_conaf":"parque-nacional-corcovado",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.2504305,-41.88912 ]
+    },
+    "properties": {
+    "nombre":"Hornopirén",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":3000,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-hornopiren/",
+    "slug_conaf":"parque-nacional-hornopiren",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0120598,-28.1411382 ]
+    },
+    "properties": {
+    "nombre":"Huasco",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-huasco/",
+    "slug_conaf":"parque-nacional-huasco",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.6591212,-39.1371 ]
+    },
+    "properties": {
+    "nombre":"Huerquehue",
+    "tipo":"Parque Nacional",
+    "region":"Región de la Araucanía Abierto",
+    "superficie_ha":0,
+    "tiene_camping":"True",
+    "servicios":"baños|duchas|estacionamiento|senderos|quincho|picnic",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-huerquehue/",
+    "slug_conaf":"parque-nacional-huerquehue",
+    "horario":"abierto de Martes a Domingo de 08:30 a 18:30",
+    "slug_pases":"huerquehue",
+    "url_pases":"https://www.pasesparques.cl/es/parks/huerquehue",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.3526086,-44.6192273 ]
+    },
+    "properties": {
+    "nombre":"Isla Magdalena",
+    "tipo":"Parque Nacional",
+    "region":"Aysén del General Carlos Ibáñez del Campo",
+    "superficie_ha":0,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-isla-magdalena/",
+    "slug_conaf":"parque-nacional-isla-magdalena",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -73.756673,-52.3127552 ]
+    },
+    "properties": {
+    "nombre":"Kawésqar",
+    "tipo":"Parque Nacional",
+    "region":"Magallanes",
+    "superficie_ha":875,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-kawesqar/",
+    "slug_conaf":"parque-nacional-kawesqar",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0738572,-32.9663 ]
+    },
+    "properties": {
+    "nombre":"La Campana",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":8000,
+    "tiene_camping":"True",
+    "servicios":"estacionamiento|senderos",
+    "descripcion":"Horario de Último Ingreso: 15:30 Hrs Para mayor información de senderos y mapa revisa el siguiente link Revisa las indicaciones para travesías en el siguiente link Protocolo de travesías PN La Campana Este parque representa un importante centro de convergencia florística, con elementos fitogeográficos del norte, centro, sur y andinos. Conjuntamente con comunidades semidesérticas, que crecen en laderas de exposición norte, se desarrollan, en laderas de exposición sur, bosques de tipo sureño. Por sobre los 1.600 m de altitud, crecen comunidades andinas, y a bajas alturas (hasta los 1.000 m), los",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-la-campana/",
+    "slug_conaf":"parque-nacional-la-campana",
+    "horario":"abierto de Martes a Domingo de 08:30 a 17:00",
+    "slug_pases":"la-campana-sector-granizo",
+    "url_pases":"https://www.pasesparques.cl/es/parks/la-campana-sector-granizo",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.3715641,-37.4140414 ]
+    },
+    "properties": {
+    "nombre":"Laguna del Laja",
+    "tipo":"Parque Nacional",
+    "region":"Región del Biobío Abierto",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"estacionamiento|senderos",
+    "descripcion":"Horario de Último Ingreso: 18:00 Hrs Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad. Este parque destaca por su impresionante lago glacial y vistas panorámicas del Volcán Antuco y Sierra Velluda. Ofrece senderos para el trekking  y oportunidades para la observación de fauna como aves, carnívoros y reptiles. Ideal para el ecoturismo, brinda paisajes montañosos y actividades al aire libre. En invierno es un destino ideal para disfrutar de la presencia de nieve",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-del-laja/",
+    "slug_conaf":"parque-nacional-laguna-del-laja",
+    "horario":"abierto de Lunes a Domingo de 08:30 a 18:00",
+    "slug_pases":"laguna-del-laja",
+    "url_pases":"https://www.pasesparques.cl/es/parks/laguna-del-laja",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -74.4524822,-46.9738905 ]
+    },
+    "properties": {
+    "nombre":"Laguna San Rafael",
+    "tipo":"Parque Nacional",
+    "region":"Aysén",
+    "superficie_ha":1742000,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-san-rafael/",
+    "slug_conaf":"parque-nacional-laguna-san-rafael",
+    "horario":"abierto de Lunes a Domingo de 08:30 a 17:00",
+    "slug_pases":"laguna-san-rafael",
+    "url_pases":"https://www.pasesparques.cl/es/parks/laguna-san-rafael",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.2912056,-18.2613525 ]
+    },
+    "properties": {
+    "nombre":"Lauca",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"baños|estacionamiento|senderos|picnic",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+    "slug_conaf":"parque-nacional-lauca",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.0120598,-28.1411382 ]
+    },
+    "properties": {
+    "nombre":"Llanos de Challe",
+    "tipo":"Parque Nacional",
+    "region":"Atacama",
+    "superficie_ha":45708,
+    "tiene_camping":"True",
+    "servicios":"senderos|refugio",
+    "descripcion":"Horario de Último Ingreso: 16:30 Hrs Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Este parque es conocido por su desierto florido, que transforma el paisaje con un manto de flores coloridas tras las lluvias estacionales. Sus senderos permiten explorar una flora endémica única y avistar fauna como guanacos y zorros. Es un destino ideal para el ecoturismo, ofreciendo una experiencia única de conexión con la naturaleza y la belleza escénica del desierto en flor.",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-llanos-de-challe/",
+    "slug_conaf":"parque-nacional-llanos-de-challe",
+    "horario":"abierto de Martes a Domingo de 09:00 a 18:00",
+    "slug_pases":"llanos-de-challe",
+    "url_pases":"https://www.pasesparques.cl/es/parks/llanos-de-challe",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.7110403,-24.8561576 ]
+    },
+    "properties": {
+    "nombre":"Llullaillaco",
+    "tipo":"Parque Nacional",
+    "region":"Antofagasta",
+    "superficie_ha":268670,
+    "tiene_camping":"False",
+    "servicios":"baños|senderos|refugio",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-llullaillaco/",
+    "slug_conaf":"parque-nacional-llullaillaco",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.9911783,-37.7961273 ]
+    },
+    "properties": {
+    "nombre":"Nahuelbuta",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-nahuelbuta/",
+    "slug_conaf":"parque-nacional-nahuelbuta",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.9910802,-27.0350588 ]
+    },
+    "properties": {
+    "nombre":"Nevado de Tres Cruces",
+    "tipo":"Parque Nacional",
+    "region":"Atacama",
+    "superficie_ha":87,
+    "tiene_camping":"True",
+    "servicios":"senderos|refugio",
+    "descripcion":"Horario de Último Ingreso 17:00 Hrs Parque nacional cerrado sin personal guardaparques de CONAF desde junio a septiembre. Solo atención de concesionario turístico refugio maricunga, sector laguna santa rosa. Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad El Parque Nacional Nevado Tres Cruces ubicado en las comunas de Copiapó y Tierra Amarilla, se extiende por 50.081 hectáreas y se divide en dos sectores, la laguna Santa Rosa al norte y Negro Francisco al sur, con altitudes que van desde los 3800 hasta los 5440 msnm en su p",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-nevado-de-tres-cruces/",
+    "slug_conaf":"parque-nacional-nevado-de-tres-cruces",
+    "horario":"abierto de Martes a Domingo de 09:00 a 19:30",
+    "slug_pases":"nevado-tres-cruces",
+    "url_pases":"https://www.pasesparques.cl/es/parks/nevado-tres-cruces",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.9809754,-36.8946547 ]
+    },
+    "properties": {
+    "nombre":"Nonguén",
+    "tipo":"Parque Nacional",
+    "region":"Región del Biobío Abierto",
+    "superficie_ha":9,
+    "tiene_camping":"False",
+    "servicios":"estacionamiento|senderos|refugio|picnic",
+    "descripcion":"Horario de Último Ingreso: 15:00 Hrs Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Es un pequeño santuario natural que destaca por su valiosa biodiversidad. Alberga bosques dominados por  el roble, y destacan especies amenazadas como el Pitao y el Michay araucano, además de una rica fauna que incluye pudus y zorros. Sus senderos permiten el avistamiento de aves y la conexión con la naturaleza en un entorno de tranquilidad y belleza escénica.",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-nonguen/",
+    "slug_conaf":"parque-nacional-nonguen",
+    "horario":"abierto de Martes a Domingo de 09:30 a 16:30",
+    "slug_pases":"nonguen",
+    "url_pases":"https://www.pasesparques.cl/es/parks/nonguen",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.2644548,-46.928484 ]
+    },
+    "properties": {
+    "nombre":"Patagonia",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":75,
+    "tiene_camping":"False",
+    "servicios":"baños|senderos",
+    "descripcion":"Horario de Último Ingreso: 17:30 Hrs Camping del sector chacabuco del Parque Nacional Patagonia se encontrarán cerrados hasta el inicio de la temporada de verano El cierre del sector Chacabuco incluye Sector Alto Valle, casa Piedra ruta los valles wets wind, Conexión Tamango- Chacabuco Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Este parque alberga uno de los niveles más altos de biodiversidad de la región, conformando un corredor natural entre valles inmersos . Sus paisajes espectaculares incluyen la estepa patagónica,",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-patagonia/",
+    "slug_conaf":"parque-nacional-patagonia",
+    "horario":"abierto de Martes a Domingo de 08:30 a 18:00",
+    "slug_pases":"patagonia-chacabuco",
+    "url_pases":"https://www.pasesparques.cl/es/parks/patagonia-chacabuco",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.2677464,-42.1697965 ]
+    },
+    "properties": {
+    "nombre":"Pumalín Douglas Tompkins",
+    "tipo":"Parque Nacional",
+    "region":"Los Lagos",
+    "superficie_ha":0,
+    "tiene_camping":"True",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+    "slug_conaf":"parque-nacional-pumalin-douglas-tompkins",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.0999773,-40.6829636 ]
+    },
+    "properties": {
+    "nombre":"Puyehue",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"senderos",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-puyehue/",
+    "slug_conaf":"parque-nacional-puyehue",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.4109312,-44.3804728 ]
+    },
+    "properties": {
+    "nombre":"Queulat",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":154093,
+    "tiene_camping":"True",
+    "servicios":"baños|estacionamiento|senderos",
+    "descripcion":"Horario de Último Ingreso 14:30 Hrs Horario de Último ingreso Senderos Especiales Sendero \"La Morrena\" 13:30 Hrs Sendero \"Laguna los Pumas\" 12:00 Hrs Camping del sector Ventisquero Colgante del Parque Nacional Queulat se encontrarán cerrados hasta el inicio de la temporada de verano Recuerda llevar tu pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Este parque, es famoso por el impresionante Ventisquero Colgante y los paisajes característicos de la selva valdiviana. Sus senderos atraviesan bosques densos, cascadas y ríos, lo que lo convierte ",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-queulat/",
+    "slug_conaf":"parque-nacional-queulat",
+    "horario":"abierto de Martes a Domingo de 09:00 a 16:30",
+    "slug_pases":"queulat",
+    "url_pases":"https://www.pasesparques.cl/es/parks/queulat",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.9383239,-35.4772851 ]
+    },
+    "properties": {
+    "nombre":"Radal Siete Tazas",
+    "tipo":"Parque Nacional",
+    "region":"Región del Maule Abierto",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"baños|senderos|picnic",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+    "slug_conaf":"parque-nacional-radal-siete-tazas",
+    "horario":"abierto de Martes a Domingo de 08:30 a 17:00",
+    "slug_pases":"rada-siete-tazas",
+    "url_pases":"https://www.pasesparques.cl/es/parks/rada-siete-tazas",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -109.4275079,-27.178957 ]
+    },
+    "properties": {
+    "nombre":"Rapa Nui",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"baños|senderos|fogon",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-rapa-nui/",
+    "slug_conaf":"parque-nacional-rapa-nui",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -70.7588222,-34.1512163 ]
+    },
+    "properties": {
+    "nombre":"Salar de Huasco",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-salar-de-huasco/",
+    "slug_conaf":"parque-nacional-salar-de-huasco",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -68.7049474,-54.1387555 ]
+    },
+    "properties": {
+    "nombre":"Tierra del Fuego",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-tierra-del-fuego/",
+    "slug_conaf":"parque-nacional-tierra-del-fuego",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.9845251,-51.0405776 ]
+    },
+    "properties": {
+    "nombre":"Torres del Paine",
+    "tipo":"Parque Nacional",
+    "region":"Magallanes y Antártica Chilena",
+    "superficie_ha":null,
+    "tiene_camping":"True",
+    "servicios":"baños|agua_potable|senderos|refugio|picnic",
+    "descripcion":"Hasta el 31 de agosto se exigirá el acompañamiento de un guía autorizado para el acceso a Base Torres Listado completo guías autorizados Durante  los meses de Junio y Julio el sendero W se encontrará cerrado Hasta el 31 de octubre se encontrará cerrado el circuito macizo paine (\"O\") Lee el siguiente reglamento sobre ingreso en temporada invernal y sigue las indicaciones Reglamento invernal PN Torres de Paine Prepárate para una aventura épica en el corazón de la Patagonia chilena, descubre un reino de glaciares majestuosos, torres de granito imponentes y lagos de un azul profundo. Prepárate par",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+    "slug_conaf":"parque-nacional-torres-del-paine",
+    "horario":"abierto de Lunes a Domingo de 08:30 a 18:00",
+    "slug_pases":"torres-del-paine",
+    "url_pases":"https://www.pasesparques.cl/es/parks/torres-del-paine",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -72.4255608,-41.0598676 ]
+    },
+    "properties": {
+    "nombre":"Vicente Pérez Rosales",
+    "tipo":"Parque Nacional",
+    "region":"Región de los Lagos Abierto",
+    "superficie_ha":253780,
+    "tiene_camping":"False",
+    "servicios":"senderos|refugio",
+    "descripcion":"Horario de Último Ingreso: 17:00 Hrs Pase válido para sector Saltos de Petrohue / Sectores Laguna Verde, Volcán Osorno y Petrohue con acceso gratuito Recuerda llevar tu Pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Sumérgete en la belleza salvaje de los Saltos del Petrohué, donde el agua turquesa se desploma en cascadas espectaculares. Rodeado de bosques verdes y vistas inolvidables al volcán Osorno, vive una experiencia natural única e inolvidable.",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-vicente-perez-rosales/",
+    "slug_conaf":"parque-nacional-vicente-perez-rosales",
+    "horario":"abierto de Lunes a Domingo de 09:00 a 18:00",
+    "slug_pases":"v-perez-rosales",
+    "url_pases":"https://www.pasesparques.cl/es/parks/v-perez-rosales",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -71.8806854,-39.4758914 ]
+    },
+    "properties": {
+    "nombre":"Villarrica",
+    "tipo":"Parque Nacional",
+    "region":"Los Ríos",
+    "superficie_ha":460,
+    "tiene_camping":"True",
+    "servicios":"baños|estacionamiento|senderos|picnic",
+    "descripcion":"Horario de Último Ingreso: 16:00 Hrs Revisa el estado de la unidad aquí Recuerda llevar tu pase impreso o en tu dispositivo móvil para presentarlo en el acceso junto a tu cédula de identidad Este parque, es famoso por sus impresionantes paisajes volcánicos y fuentes termales. Sus senderos te guían a través de lagos, bosques nativos y ofrecen vistas panorámicas del imponente Volcán Villarrica. Es un destino ideal para quienes disfrutan de actividades como senderismo, esquí y la observación de flora y fauna, brindando una experiencia natural llena de aventura y exploración.",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-villarrica/",
+    "slug_conaf":"parque-nacional-villarrica",
+    "horario":"abierto de Martes a Domingo de 08:30 a 17:30",
+    "slug_pases":"villarrica-norte",
+    "url_pases":"https://www.pasesparques.cl/es/parks/villarrica-norte",
+    "tiene_pase_digital":"True"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ -69.1037714,-19.3340265 ]
+    },
+    "properties": {
+    "nombre":"Volcán Isluga",
+    "tipo":"Parque Nacional",
+    "region":"Tarapacá",
+    "superficie_ha":null,
+    "tiene_camping":"False",
+    "servicios":"senderos|quincho",
+    "descripcion":"Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-volcan-isluga/",
+    "slug_conaf":"parque-nacional-volcan-isluga",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "nombre":"Yerba Loca",
+    "tipo":"Parque Nacional",
+    "region":"",
+    "superficie_ha":null,
+    "tiene_camping":"",
+    "servicios":"",
+    "descripcion":"",
+    "url_conaf":"https://www.conaf.cl/parque_nacionales/parque-nacional-yerba-loca/",
+    "slug_conaf":"parque-nacional-yerba-loca",
+    "horario":"",
+    "slug_pases":"",
+    "url_pases":"",
+    "tiene_pase_digital":"False"
+    }
+  }
+]
+}
