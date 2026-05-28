@@ -1,0 +1,787 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5143638,
+          -41.5730373
+        ]
+      },
+      "properties": {
+        "nombre": "Alerce Andino",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-alerce-andino",
+        "osm_id": 18458877,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-andino/",
+        "conaf_status": 200,
+        "superficie_ha": "39255",
+        "tiene_camping": false,
+        "servicios": "senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3692312,
+          -40.0379055
+        ]
+      },
+      "properties": {
+        "nombre": "Alerce Costero",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-alerce-costero",
+        "osm_id": 4741376,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-alerce-costero/",
+        "conaf_status": 200,
+        "region": "Los Ríos",
+        "tiene_camping": false,
+        "servicios": "baños|estacionamiento|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7907713,
+          -33.7691971
+        ]
+      },
+      "properties": {
+        "nombre": "Archipiélago Juan Fernández",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-archipielago-juan-fernandez",
+        "osm_id": 17504682,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-archipielago-juan-fernandez/",
+        "conaf_status": 200,
+        "tiene_camping": true,
+        "servicios": "senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.501612,
+          -49.7505552
+        ]
+      },
+      "properties": {
+        "nombre": "Bernardo O'Higgins",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-bernardo-ohiggins",
+        "osm_id": 5449250,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-bernardo-ohiggins/",
+        "conaf_status": 200,
+        "region": "Magallanes",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6720165,
+          -30.6511829
+        ]
+      },
+      "properties": {
+        "nombre": "Bosque Fray Jorge",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-bosque-fray-jorge",
+        "osm_id": 1507955692,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-bosque-fray-jorge/",
+        "conaf_status": 200,
+        "region": "Coquimbo",
+        "superficie_ha": "9000",
+        "tiene_camping": false,
+        "servicios": "baños|estacionamiento|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.8283764,
+          -55.855841
+        ]
+      },
+      "properties": {
+        "nombre": "Cabo de Hornos",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-cabo-de-hornos",
+        "osm_id": 4138076,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-cabo-de-hornos/",
+        "conaf_status": 200,
+        "region": "Magallanes y Antártica Chilena",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9544892,
+          -46.0765221
+        ]
+      },
+      "properties": {
+        "nombre": "Cerro Castillo",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-cerro-castillo",
+        "osm_id": 4807841,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-cerro-castillo/",
+        "conaf_status": 200,
+        "tiene_camping": true,
+        "servicios": "baños|duchas|agua_potable|senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0966148,
+          -42.4725607
+        ]
+      },
+      "properties": {
+        "nombre": "Chiloé",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-chiloe",
+        "osm_id": 4761672,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-chiloe/",
+        "conaf_status": 200,
+        "superficie_ha": "42567",
+        "tiene_camping": false,
+        "servicios": "baños|senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6847086,
+          -38.655086
+        ]
+      },
+      "properties": {
+        "nombre": "Conguillio",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-conguillio",
+        "osm_id": 18454200,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-conguillio/",
+        "conaf_status": 200,
+        "region": "La Araucanía",
+        "tiene_camping": true,
+        "servicios": "baños|senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7121795,
+          -43.5083359
+        ]
+      },
+      "properties": {
+        "nombre": "Corcovado",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-corcovado",
+        "osm_id": 4741383,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-corcovado/",
+        "conaf_status": 200,
+        "region": "Aysén",
+        "superficie_ha": "293986",
+        "tiene_camping": false,
+        "servicios": "senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2504305,
+          -41.88912
+        ]
+      },
+      "properties": {
+        "nombre": "Hornopirén",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-hornopiren",
+        "osm_id": 14152413,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-hornopiren/",
+        "conaf_status": 200,
+        "superficie_ha": "3000",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0120598,
+          -28.1411382
+        ]
+      },
+      "properties": {
+        "nombre": "Huasco",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-huasco",
+        "osm_id": 5482670,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-huasco/",
+        "conaf_status": 404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6591212,
+          -39.1371
+        ]
+      },
+      "properties": {
+        "nombre": "Huerquehue",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-huerquehue",
+        "osm_id": 6751459,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-huerquehue/",
+        "conaf_status": 200,
+        "superficie_ha": "000",
+        "tiene_camping": true,
+        "servicios": "baños|duchas|estacionamiento|senderos|quincho|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3526086,
+          -44.6192273
+        ]
+      },
+      "properties": {
+        "nombre": "Isla Magdalena",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-isla-magdalena",
+        "osm_id": 4743515,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-isla-magdalena/",
+        "conaf_status": 200,
+        "region": "Aysén del General Carlos Ibáñez del Campo",
+        "superficie_ha": "000",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.756673,
+          -52.3127552
+        ]
+      },
+      "properties": {
+        "nombre": "Kawésqar",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-kawesqar",
+        "osm_id": 5446634,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-kawesqar/",
+        "conaf_status": 200,
+        "region": "Magallanes",
+        "superficie_ha": "875",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0738572,
+          -32.9663
+        ]
+      },
+      "properties": {
+        "nombre": "La Campana",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-la-campana",
+        "osm_id": 10596977,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-la-campana/",
+        "conaf_status": 200,
+        "superficie_ha": "8000",
+        "tiene_camping": true,
+        "servicios": "estacionamiento|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3715641,
+          -37.4140414
+        ]
+      },
+      "properties": {
+        "nombre": "Laguna del Laja",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-laguna-del-laja",
+        "osm_id": 4767487,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-del-laja/",
+        "conaf_status": 200,
+        "tiene_camping": false,
+        "servicios": "estacionamiento|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4524822,
+          -46.9738905
+        ]
+      },
+      "properties": {
+        "nombre": "Laguna San Rafael",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-laguna-san-rafael",
+        "osm_id": 4647128,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-laguna-san-rafael/",
+        "conaf_status": 200,
+        "region": "Aysén",
+        "superficie_ha": "1742000",
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2912056,
+          -18.2613525
+        ]
+      },
+      "properties": {
+        "nombre": "Lauca",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-lauca",
+        "osm_id": 4740979,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-lauca/",
+        "conaf_status": 200,
+        "tiene_camping": false,
+        "servicios": "baños|estacionamiento|senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0120598,
+          -28.1411382
+        ]
+      },
+      "properties": {
+        "nombre": "Llanos de Challe",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-llanos-de-challe",
+        "osm_id": 5482670,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-llanos-de-challe/",
+        "conaf_status": 200,
+        "region": "Atacama",
+        "superficie_ha": "45708",
+        "tiene_camping": true,
+        "servicios": "senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7110403,
+          -24.8561576
+        ]
+      },
+      "properties": {
+        "nombre": "Llullaillaco",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-llullaillaco",
+        "osm_id": 4741406,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-llullaillaco/",
+        "conaf_status": 200,
+        "region": "Antofagasta",
+        "superficie_ha": "268670",
+        "tiene_camping": false,
+        "servicios": "baños|senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9911783,
+          -37.7961273
+        ]
+      },
+      "properties": {
+        "nombre": "Nahuelbuta",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-nahuelbuta",
+        "osm_id": 10599406,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-nahuelbuta/",
+        "conaf_status": 200,
+        "tiene_camping": false,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9910802,
+          -27.0350588
+        ]
+      },
+      "properties": {
+        "nombre": "Nevado de Tres Cruces",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-nevado-de-tres-cruces",
+        "osm_id": 5478505,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-nevado-de-tres-cruces/",
+        "conaf_status": 200,
+        "region": "Atacama",
+        "superficie_ha": "87",
+        "tiene_camping": true,
+        "servicios": "senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9809754,
+          -36.8946547
+        ]
+      },
+      "properties": {
+        "nombre": "Nonguén",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-nonguen",
+        "osm_id": 4770312,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-nonguen/",
+        "conaf_status": 200,
+        "superficie_ha": "9",
+        "tiene_camping": false,
+        "servicios": "estacionamiento|senderos|refugio|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2644548,
+          -46.928484
+        ]
+      },
+      "properties": {
+        "nombre": "Patagonia",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-patagonia",
+        "osm_id": 4776073,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-patagonia/",
+        "conaf_status": 200,
+        "superficie_ha": "75",
+        "tiene_camping": false,
+        "servicios": "baños|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.2677464,
+          -42.1697965
+        ]
+      },
+      "properties": {
+        "nombre": "Pumalín Douglas Tompkins",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-pumalin-douglas-tompkins",
+        "osm_id": 14151682,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-pumalin-douglas-tompkins/",
+        "conaf_status": 200,
+        "region": "Los Lagos",
+        "superficie_ha": "000",
+        "tiene_camping": true,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0999773,
+          -40.6829636
+        ]
+      },
+      "properties": {
+        "nombre": "Puyehue",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-puyehue",
+        "osm_id": 4741077,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-puyehue/",
+        "conaf_status": 200,
+        "tiene_camping": true,
+        "servicios": "senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4109312,
+          -44.3804728
+        ]
+      },
+      "properties": {
+        "nombre": "Queulat",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-queulat",
+        "osm_id": 14568264,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-queulat/",
+        "conaf_status": 200,
+        "superficie_ha": "154093",
+        "tiene_camping": true,
+        "servicios": "baños|estacionamiento|senderos",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9383239,
+          -35.4772851
+        ]
+      },
+      "properties": {
+        "nombre": "Radal Siete Tazas",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-radal-siete-tazas",
+        "osm_id": 10597152,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-radal-siete-tazas/",
+        "conaf_status": 200,
+        "tiene_camping": true,
+        "servicios": "baños|senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.4275079,
+          -27.178957
+        ]
+      },
+      "properties": {
+        "nombre": "Rapa Nui",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-rapa-nui",
+        "osm_id": 4657638,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-rapa-nui/",
+        "conaf_status": 200,
+        "tiene_camping": false,
+        "servicios": "baños|senderos|fogon",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7588222,
+          -34.1512163
+        ]
+      },
+      "properties": {
+        "nombre": "Salar de Huasco",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-salar-de-huasco",
+        "osm_id": 656881013,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-salar-de-huasco/",
+        "conaf_status": 404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.7049474,
+          -54.1387555
+        ]
+      },
+      "properties": {
+        "nombre": "Tierra del Fuego",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-tierra-del-fuego",
+        "osm_id": 6653004416,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-tierra-del-fuego/",
+        "conaf_status": 404
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9845251,
+          -51.0405776
+        ]
+      },
+      "properties": {
+        "nombre": "Torres del Paine",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-torres-del-paine",
+        "osm_id": 2622290,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-torres-del-paine/",
+        "conaf_status": 200,
+        "region": "Magallanes y Antártica Chilena",
+        "tiene_camping": true,
+        "servicios": "baños|agua_potable|senderos|refugio|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4255608,
+          -41.0598676
+        ]
+      },
+      "properties": {
+        "nombre": "Vicente Pérez Rosales",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-vicente-perez-rosales",
+        "osm_id": 2625616,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-vicente-perez-rosales/",
+        "conaf_status": 200,
+        "superficie_ha": "253780",
+        "tiene_camping": false,
+        "servicios": "senderos|refugio",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8806854,
+          -39.4758914
+        ]
+      },
+      "properties": {
+        "nombre": "Villarrica",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-villarrica",
+        "osm_id": 6751346,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-villarrica/",
+        "conaf_status": 200,
+        "region": "Los Ríos",
+        "superficie_ha": "460",
+        "tiene_camping": true,
+        "servicios": "baños|estacionamiento|senderos|picnic",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1037714,
+          -19.3340265
+        ]
+      },
+      "properties": {
+        "nombre": "Volcán Isluga",
+        "tipo": "Parque Nacional",
+        "slug_conaf": "parque-nacional-volcan-isluga",
+        "osm_id": 5401391,
+        "url_conaf": "https://www.conaf.cl/parque_nacionales/parque-nacional-volcan-isluga/",
+        "conaf_status": 200,
+        "region": "Tarapacá",
+        "tiene_camping": false,
+        "servicios": "senderos|quincho",
+        "descripcion": "Saltar al contenido Menu Quiénes Somos Oficina Virtual Centro Documental Preguntas frecuentes Contacto Inicio Manejo de Ecosistemas Bosque Nativo Fondo de Conservación y Manejo Sustentable del Bosque Nativo Cómo postular Tabla de valores vigente Resultado concursos del Fondo de Conservación Bonos Ley de Bosque Nativo Pago por Asesoría Profesional Cómo obtener crédito de enlace CONAF-INDAP para manejar tu bosque nativo Asistencia profesional Programa Nacional de Extensión Forestal de CONAF Acuerd"
+      }
+    }
+  ]
+}
