@@ -306,14 +306,35 @@ const SERVICIOS_LABELS = {
        .then(r => r.json())
        .then(data => init(data))
    ────────────────────────────────────────────── */
-   
-const DEMO_DATA = fetch('output/parks_enriched.geojson')
-  .then(r => r.json())
-  .then(data => addMarkers(data))
-  .catch(err => {
-    console.error('Error cargando GeoJSON:', err);
-    addMarkers(DEMO_DATA); // fallback a demo si falla
-  });
+const DEMO_DATA = {
+  type: 'FeatureCollection',
+  features: [
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.9355,-50.9423]},
+      properties:{nombre:'Torres del Paine',region:'Región de Magallanes',tiene_camping:true,servicios:'baños|duchas|senderos|refugio|agua_potable',horario:'Lun a Dom 08:30–18:00',slug_pases:'torres-del-paine',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.0161,-39.9791]},
+      properties:{nombre:'Villarrica',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|senderos|estacionamiento|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'villarrica-norte',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.6273,-38.6559]},
+      properties:{nombre:'Conguillio',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|duchas|senderos|quincho|agua_potable|estacionamiento',horario:'Lun a Dom 08:00–20:00',slug_pases:'conguillio',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.0019,-33.0075]},
+      properties:{nombre:'La Campana',region:'Región de Valparaíso',tiene_camping:true,servicios:'baños|senderos|agua_potable|estacionamiento',horario:'Lun a Dom 08:30–18:00',slug_pases:'la-campana-sector-granizo',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.9198,-39.5551]},
+      properties:{nombre:'Huerquehue',region:'Región de La Araucanía',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'huerquehue',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-73.8067,-41.7814]},
+      properties:{nombre:'Alerce Andino',region:'Región de Los Lagos',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:00–18:00',slug_pases:'alerce-andino',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.4817,-29.9765]},
+      properties:{nombre:'Bosque Fray Jorge',region:'Región de Coquimbo',tiene_camping:false,servicios:'senderos|estacionamiento',horario:'Sáb a Dom 09:00–17:00',slug_pases:'bosque-fray-jorge',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-70.6693,-26.0822]},
+      properties:{nombre:'Pan de Azúcar',region:'Región de Atacama',tiene_camping:true,servicios:'baños|agua_potable|senderos',horario:'Lun a Dom 08:30–18:00',slug_pases:'pan-de-azucar',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-72.3746,-45.4754]},
+      properties:{nombre:'Laguna San Rafael',region:'Región de Aysén',tiene_camping:false,servicios:'senderos',horario:'Consultar',slug_pases:null,tiene_pase_digital:false}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-73.5843,-42.6148]},
+      properties:{nombre:'Chiloé',region:'Región de Los Lagos',tiene_camping:true,servicios:'baños|senderos|agua_potable|estacionamiento',horario:'Lun a Dom 08:00–18:00',slug_pases:'chiloe',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-71.3855,-37.3497]},
+      properties:{nombre:'Laguna del Laja',region:'Región del Biobío',tiene_camping:true,servicios:'baños|senderos|agua_potable',horario:'Lun a Dom 08:30–18:00',slug_pases:'laguna-del-laja',tiene_pase_digital:true}},
+    { type:'Feature', geometry:{type:'Point',coordinates:[-69.9031,-18.3613]},
+      properties:{nombre:'Lauca',region:'Región de Arica y Parinacota',tiene_camping:true,servicios:'baños|agua_potable|senderos',horario:'Todos los días',slug_pases:null,tiene_pase_digital:false}},
+  ]
+};
 
 /* ── Mapa ── */
 const map = L.map('map', {
